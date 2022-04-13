@@ -8,7 +8,7 @@ const Item = (props) => {
       <div className="popular__card-body">
         <h3 className="card__body-title">{product.title}</h3>
         <p className="card__body-desc">{product.desc}</p>
-        <span>$ {product.price}.00</span>
+        <span className="card__body-price">$ {product.price}.00</span>
         <div className="card__body-cant">
           <button> 
             + ADD
